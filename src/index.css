@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 1.5rem solid #535bf2;
 }
 
 a {
@@ -25,7 +26,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: initial;
   min-width: 320px;
   min-height: 100vh;
 }
