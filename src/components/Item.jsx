@@ -1,23 +1,21 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
-function Item({ marca, ano_lancamento }) {
-  return (
+function Item({marca, ano_lancamento}) {
+  return(
     <>
-      <li>
-        {marca} - {ano_lancamento}
-      </li>
+    <li>{marca} - {ano_lancamento} </li>
     </>
-  );
+  )
 }
 
-Item.PropTypes = {
+Item.propTypes={
   marca: PropTypes.string.isRequired,
-  ano_lancamento: PropTypes.number,
-};
+  ano_lancamento: PropTypes.number
+}
 
-Item.defaultProps = {
-  marca: "Faltou a marca",
+Item.defaultProps={
+  marca: "Sem Nome",
   ano_lancamento: 0,
-};
+}
 
-export default Item;
+export default Item

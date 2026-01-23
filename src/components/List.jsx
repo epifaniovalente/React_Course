@@ -1,5 +1,4 @@
 import Item from "./Item";
-
 function List() {
   return (
     <>
@@ -7,8 +6,8 @@ function List() {
       <ul>
         <li>item 1</li>
         <li>item 2</li>
-        <Item  />
-        <Item marca="BMW" ano_lancamento={1963} />
+        <Item marca="BMW" ano_lancamento={1936}/>
+        <Item/>
       </ul>
     </>
   );

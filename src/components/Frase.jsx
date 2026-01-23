@@ -3,7 +3,7 @@ import styles from './Frase.module.css'
 function Frase() {
   return (
     <div className={styles.FraseContainer}>
-      <p className={styles.FraseContent}>Este é um componente com uma frase</p>
+      <p className={styles.FraseContent}>Este é componente com uma frase!</p>
     </div>
   );
 }

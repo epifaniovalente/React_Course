@@ -1,41 +1,19 @@
 import "./App.css";
-import Header from "./components/GPT/Header";
-import Footer from "./components/GPT/Footer";
-import HelloWord from "./components/HelloWord";
-import SayMyName from "./components/SayMyName";
-import Pessoa from "./components/Pessoa";
-import Frase from "./components/Frase";
-import List from './components/List'
-
-// const titulo1 = "Plataforma EpiCoder";
-// const subtitulo = "Props multiplos";
-const aluno = "Zé";
+import OutraLista from "./components/OutraLista";
+// import OutraLista from "./components/exercicios/OutraLista";
 // const src = "https://via.placeholder.com/150";
+// const user = "Maria";
 
 function App() {
+
+  const meusItens = ['Headphone', 'Keyboard', 'Phone', 'CableUSB']
+
   return (
     <div>
-      {/* <Header titulo={titulo1} subtitulo={subtitulo} />
-      <Header titulo="Aprendendo React" />
-      <h1>Ola, React</h1>
-      <p>Meu primeiro componente está funcionando!</p>
-      <p>Aprendendo componentes reutilizaveis.</p>
-      <Footer></Footer>
-      <HelloWord /> */}
-
-      <SayMyName nome="Pingadas" />
-      {/* <SayMyName nome="Jaime" />
-      <SayMyName nome="Lúcio" />
-      <SayMyName nome={aluno} /> */}
-      <Pessoa
-        foto="https://via.placeholder.com/150"
-        nome="Kinavuidi"
-        idade="65"
-        profissao="Estudante"
-      />
-
-      <Frase />
-      <List/>
+      <h2>Renderização de Lista</h2>
+      <OutraLista itens={meusItens}/>
+      <OutraLista itens={[]}/>
+      {/* <OutraLista itens={meusItens} /> */}
     </div>
   );
 }

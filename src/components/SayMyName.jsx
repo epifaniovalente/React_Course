@@ -1,7 +1,8 @@
+
 function SayMyName(props) {
   return (
     <div>
-      <p> Waridoo {props.nome}! tranquilo?</p>
+      <p> Saudações {props.nome}! tranquilo?</p>
     </div>
   );
 }
