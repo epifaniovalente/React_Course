@@ -1,7 +1,7 @@
 function Empresa() {
     return(
-        <div>
-            <h1>A Empresa</h1>
+        <div className="max-w-3xl p-6 m-auto">
+            <h1 className="text-2xl font-bold text-blue-950">A Empresa</h1>
             <p>Conteudo da pagina</p>
             <article>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla amet fugit tempore, debitis facere ad consequatur consectetur animi. Tempore magnam aliquam adipisci! Doloribus neque praesentium totam fugit, sed dolor!
