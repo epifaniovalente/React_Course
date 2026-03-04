@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import ServicosPremium from "./components/ServicosPremium";
 import Agendamento_Online from "./components/Agendamento_Online";
 
-function App() {
+export default function App() {
     return (
         <section className="min-h-screen bg-slate-950 text-gray-600 font-sans">
             <Home/>
@@ -19,5 +19,3 @@ function App() {
         </section>
     )
 }
-
-export default App
