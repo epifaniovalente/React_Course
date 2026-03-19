@@ -18,8 +18,8 @@ function Home() {
             </p>
 
             <article className="flex flex-col gap-5">
-                <h2 className="md:text-4xl text-2xl text-gray-50 font-bold">
-                    Tecnologia e confiança para manter seu <br /> carro sempre pronto
+                <h2 className="md:text-5xl text-3xl text-gray-50 font-bold max-w-2xl">
+                    Tecnologia e confiança para manter seu carro sempre pronto
                 </h2>
                 <p className="text-gray-400">
                    A oficina pro oferece serviços de manutenção agendamento online e<br /> acompanhamento completo do historico cliente em um único painel.

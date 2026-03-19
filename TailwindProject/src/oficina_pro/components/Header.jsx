@@ -10,7 +10,7 @@ function Header() {
                 <span className="bg-cyan-400/15 p-2.5 rounded-xl text-center text-xl font-bold text-cyan-400">
                     <FaTools/>
                 </span>
-                <a href="#" className="font-medium text-gray-200">Oficina Pro</a>
+                <a href="#" className="font-medium text-gray-200">Oficina Guetão</a>
             </div>
 
             <Navbar/>

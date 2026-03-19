@@ -17,7 +17,7 @@ function Historico_cliente() {
                 </p>
             </article>
 
-            <section className="grid gap-6 mt-6 md:grid-cols-3">
+            <section className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <BoxInsights userName="Lukenia de Abreu" marcaCarro="Hyundai Santafé 2024" quntServico=" 7 serviços" descricao="Recomendado retornar em 5.000 km para troca de fluídos." dataRealizada="10/1/2025" tipoServico="Alinhamento e balanceamento"statusServico="concluido" dataAtendimento="50/20/2006"/>
 
                 <BoxInsights userName="Josias José" marcaCarro="Mitsubishi Fortuner" quntServico=" 11 serviços" descricao="Recomendado retornar em 5.000 km para troca de fluídos." dataRealizada="28/09/2025" tipoServico="Diagnóstico eletrônico completo" statusServico="concluido" dataAtendimento="50/20/2006"/>
